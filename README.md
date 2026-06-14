@@ -17,7 +17,7 @@ Siga a lista exata de comandos abaixo no terminal do seu ambiente para clonar e 
 
 ### 1. Clonar o Repositório
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO_AQUI>
+git clone https://github.com/GledsonLucas111/ORQUESTRACAO_DOCKER.git
 cd todo_list
 
 ```
