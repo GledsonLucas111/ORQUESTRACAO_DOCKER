@@ -2,7 +2,7 @@
 
 # Todo List - Next.js + Prisma + PostgreSQL (Docker Compose)
 
-Este projeto é uma aplicação web de lista de tarefas (Todo List) desenvolvida como parte da Atividade Prática Avaliativa da disciplina de Sistemas para Internet[cite: 1, 2, 120]. A aplicação utiliza Next.js no front-end, Prisma como ORM para a comunicação com o banco de dados e PostgreSQL para a persistência das informações, sendo totalmente orquestrada utilizando Docker Compose.
+Este projeto é uma aplicação web de lista de tarefas (Todo List) desenvolvida como parte da Atividade Prática Avaliativa. A aplicação utiliza Next.js no front-end, Prisma como ORM para a comunicação com o banco de dados e PostgreSQL para a persistência das informações, sendo totalmente orquestrada utilizando Docker Compose.
 
 ## 🚀 Pré-requisitos
 
