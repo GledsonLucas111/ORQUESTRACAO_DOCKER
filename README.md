@@ -8,7 +8,7 @@ Este projeto é uma aplicação web de lista de tarefas (Todo List) desenvolvida
 
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
 * Git
-* Docker e Docker Compose instalado no ambiente (recomendado uso de WSL2 no Windows)
+* Docker e Docker Compose instalado no ambiente 
 
 
 ## 🛠️ Passo a Passo para Inicialização
