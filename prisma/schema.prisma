@@ -13,7 +13,7 @@ datasource db {
 }
 
 model Task {
-  id        Int      @id @default(autoincrement())
+  id        String      @id @default(uuid())
   task      String
   done      Boolean  @default(false)
   craetedAt DateTime @default(now())
