@@ -15,7 +15,7 @@ export default async function Home() {
         })}
       </div>
       <div className="mt-auto p-6">
-        <h3 className="text-sm text-[#647488]">
+        <h3 className="text-sm text-gray-300">
           {todos.filter((todo) => todo.done === false).length} tasks restantes
         </h3>
       </div>

@@ -27,3 +27,12 @@ export async function updateTask(id: string, done: boolean) {
   });
   revalidatePath("/");
 }
+
+export async function deleteTask(id: string) {
+  await prisma.task.delete({
+    where: {
+      id,
+    },
+  });
+  revalidatePath("/");
+}

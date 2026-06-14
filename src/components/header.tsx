@@ -14,10 +14,10 @@ export function Header() {
         <input
           type="text"
           name="task"
-          className="bg-white h-11 rounded-md border-[#CBD5E1] w-full placeholder:text-gray-400 px-4"
+          className="bg-white text-gray-900 h-11 rounded-md border-[#CBD5E1] w-full placeholder:text-gray-500 px-4"
           placeholder="Adicione nova task..."
         />
-        <button className="bg-[#3B82F6] h-11 p-3 rounded-md flex items-center justify-center" type="submit">
+        <button className="bg-[#3B82F6] h-11 p-3 rounded-md flex items-center justify-cente text-xl cursor-pointer hover:bg-[#2563EB] transition-colors" type="submit">
           +
         </button>
       </form>
