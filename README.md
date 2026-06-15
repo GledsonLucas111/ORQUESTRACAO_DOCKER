@@ -42,6 +42,19 @@ docker compose up -d --build
 
 ```
 
+### 3.1 SOLUÇÃO PARA O ERRO: "Error: P1001: Can't reach database server at" (CASO NECESSÁRIO)
+Execute o comando abaixo para esperar o banco ficar pronto antes de rodar Prisma:
+```bash
+docker exec -it postgres-todo pg_isready -U postgres
+
+```
+Quando aparecer:
+```bash
+accepting connections
+
+```
+Siga para o próximo passo:
+
 ### 4. Sincronizar o Banco de Dados (Prisma)
 
 Como o banco de dados PostgreSQL inicia completamente vazio no Docker, execute o comando abaixo para criar as tabelas necessárias utilizando o Prisma diretamente por dentro do container web:
