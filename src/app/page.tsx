@@ -25,7 +25,7 @@ export default async function Home() {
 
           <div className="mt-auto p-6 border-t border-slate-50 bg-slate-50/50 flex justify-between items-center">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-              {todos.filter((todo) => todo.done === false).length} tasks
+              {todos.filter((todo) => todo.done === false).length} tarefas
               restantes
             </h3>
           </div>
